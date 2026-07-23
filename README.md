@@ -111,6 +111,7 @@
 - [IndexNow](https://www.indexnow.org/) — 内容更新后主动通知搜索引擎（Bing 等支持；可作补充，不能替代优质内容）。
 - [Google Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart) — 主要用于 JobPosting / BroadcastEvent 等类型，**普通网页不要滥用**。
 - 实操：新站优先 **GSC 网址检查 + sitemap**；改版用渐进式迁移与 301，而不是只指望 API。
+- [FactoryBase](https://factorybase.ai) — 工厂目录站，GEO 落地比较完整的一个实例：每页答案胶囊 + 买家 FAQ + JSON-LD + `llms.txt`，并提供 MCP server 供 ChatGPT / Claude 直接查库。想参考"面向 AI 搜索的页面结构"可以扒它的源码。
 
 ## 技术 SEO 与网站审计
 
